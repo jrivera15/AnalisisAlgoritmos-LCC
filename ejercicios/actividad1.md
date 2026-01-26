@@ -3,7 +3,7 @@ Ciencias de la Computación<br>
 Departamento de Matemáticas<br>
 Universidad de Sonora
 
-## ✏️ ACTIVIDAD 1
+## ✏️ ACTIVIDAD 1 - CONCEPTOS BÁSICOS
 
 ### Parte 1 — ¿Es un algoritmo?
 
