@@ -16,7 +16,7 @@ b) ¿Por qué contamos el número de operaciones y no el tiempo en segundos?
 
 | ID | Algoritmo | # operaciones | T(n) | O() |
 |---|---|----------|----------|----------|
-| A | <pre><code>x = x + 1</code></pre>   |    |
+| A | <pre><code>x = 1 + 1</code></pre>   |    |
 | B | <pre><code>for i = 1 to n:</code><br><code>    a = a + 1</code></pre> |   |
 | C | <pre><code>for i = 1 to n:</code><br><code>    for j = 1 to n:</code><br><code>        a = a + 1</code></pre>   |    |
 | D | <pre><code>for i = 1 to n:</code><br><code>    x = x + 1</code><br><br><code>for j = 1 to n:</code><br><code>    y = y + 1</code></pre>   |    |
@@ -51,6 +51,18 @@ c)
 | 3	| 9 |
 | 4	| 16|
 | 5	| 25|
+
+d)
+| Tamaño de entrada (n) | # de operaciones |
+| ----------------------- | --------------------- |
+| 1                       | 0                     |
+| 2                       | 1                     |
+| 4                       | 2                     |
+| 8                       | 3                     |
+| 16                      | 4                     |
+| 32                      | 5                     |
+
+
 
 ### Parte 4 — Función de costo 𝑇(𝑛)  a Big-O
 
