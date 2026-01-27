@@ -13,8 +13,8 @@ b) ¿Por qué contamos el número de operaciones y no el tiempo en segundos?
 
 ### Parte 2 — Contar operaciones
 
-Considera n = 10
-| ID | Algoritmo | # operaciones | T(n) | O(n) |
+
+| ID | Algoritmo | # operaciones | T(n) | O() |
 |---|---|----------|----------|----------|
 | A | <pre><code>x = x + 1</code></pre>   |    |
 | B | <pre><code>for i = 1 to n:</code><br><code>    a = a + 1</code></pre> |   |
@@ -61,7 +61,7 @@ c)
 |---|---|----------|----------|
 | A |𝑇(𝑛)=5𝑛<sup>2</sup>+2𝑛+7 |
 | B |𝑇(𝑛)=𝑛<sup>3</sup>+𝑛<sup>2</sup>+1 |
-| B |𝑇(𝑛)=2<sup>𝑛</sup>+ log 𝑛+10 |
+| C |𝑇(𝑛)=2<sup>𝑛</sup>+ log 𝑛+10 |
 
 
 
