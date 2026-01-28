@@ -7,20 +7,22 @@ Universidad de Sonora
 
 ### Parte 1 — Conceptos
 Explica con tus palabras:<br><br>
-a) ¿Qué significa que un algoritmo “crezca”?
+a) ¿Qué significa la complejidad de un algoritmo “crezca”?
 <br><br>
-b) ¿Por qué contamos el número de operaciones y no el tiempo en segundos?
+b) ¿Qué debemos considerar si contamos el tiempo en segundos?
 
 ### Parte 2 — Contar operaciones
 
 
 | ID | Algoritmo | # operaciones | T(n) | O() |
 |---|---|----------|----------|----------|
-| A | <pre><code>x = 1 + 1</code></pre>   |    |
-| B | <pre><code>for i = 1 to n:</code><br><code>    a = a + 1</code></pre> |   |
-| C | <pre><code>for i = 1 to n:</code><br><code>    for j = 1 to n:</code><br><code>        a = a + 1</code></pre>   |    |
-| D | <pre><code>for i = 1 to n:</code><br><code>    x = x + 1</code><br><br><code>for j = 1 to n:</code><br><code>    y = y + 1</code></pre>   |    |
-| E | <pre><code>for i = 1 to n:</code><br><code>    x = x + 1</code><br><br><code> for j = 1 to n:</code><br><code>    for k = 1 to n:</code><br><code>        y = y + 1</code></pre>  |    |
+| A | <pre><code>def sum_list(lst):</code><br><code>  total = 0</code><br><code>  for value in lst:</code><br><code>    total += value</code><br><code>  return total   </code></pre>   |    |
+| B | <pre><code>def distancia(p, q):</code><br><code>  dx = (p[0] - q[0]) ** 2</code><br><code>  dy = (p[1] - q[1]) ** 2</code><br><code>  return (dx + dy) ** 0.5  </code></pre> |   |
+| C | <pre><code>def minimum(lst):</code><br><code>  min_value = lst[0]</code><br><code>  for i in range(1, len(lst)):</code><br><code>    min_value = min(min_value, lst[i])</code><br><code>  return min_value</code></pre>   |    |
+| D | <pre><code>def matrix_mul(A, B):</code><br><code>  n = len(A)</code><br><code>  res = [[0 for _ in range(n)] for _ in range(n)]</code><br><code>  for i in range(n):</code><br><code>    for j in range(n):</code><br><code>      for k in range(n):</code><br><code>        res[i][j] += A[i][k] * B[k][j]</code><br><code>  return res</code></pre>   |    |
+| E | <pre><code>import itertools</code><br><code>for order in itertools.permutations([1, 2, 3]):</code><br><code>  print(order)</code></pre>  |    |
+| F | <pre><code>def contar_divisiones(n):</code><br><code>  contador = 0</code><br><code>  while n > 1:</code><br><code>      n //= 2</code><br><code>      contador += 1</code><br><code>  return contador</code></pre>  |    |
+
 
 
 ### Parte 3 — Graficar funciones de costo
