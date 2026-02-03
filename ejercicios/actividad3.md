@@ -7,8 +7,8 @@ a) <br>
 Input: <br>
 a = [12, 7, 25, 3, 19, 8, 15]<br>
 X = 12<br>
-Output: _____
-
+Output: _____<br>
+Compejidad: ________<br>
 
 | _i_ | Valor |  ¿ a<sub>i</sub> = X ? |
 |---|---|---|
@@ -20,7 +20,8 @@ b) <br>
 Input: <br>
 a = [12, 7, 25, 3, 19, 8, 15]<br>
 X = 15<br>
-Output: _____
+Output: _____<br>
+Compejidad: ________<br>
 
 | _i_ | Valor |  ¿ a<sub>i</sub> = X ? |
 |---|---|---|
@@ -33,7 +34,8 @@ c) <br>
 Input: <br>
 a = [4, 9, 1, 6, 2]<br>
 X = 7 <br>
-Output: _____
+Output: _____<br>
+Compejidad: ________<br>
 
 | _i_ | Valor |  ¿ a<sub>i</sub> = X ? |
 |---|---|---|
@@ -47,8 +49,9 @@ Encuentra el valor objetivo aplicando búsqueda binaria.
 a)<br>
 Input: <br>
 a = [3, 6, 8, 12, 15, 18, 21, 25]<br>
-X = 15<br>
-Output: _____
+X = 21<br>
+Output: _____<br>
+Compejidad: ________<br>
 
 | izq | der |  medio | a<sub>medio | ¿ a<sub>medio</sub> = X ? |
 |---|---|---|---|---|
@@ -60,7 +63,8 @@ b)<br>
 Input: <br>
 a = [3, 6, 8, 12, 15, 18, 21, 25]<br>
 X = 7<br>
-Output: _____
+Output: _____<br>
+Compejidad: ________<br>
 
 | izq | der |  medio | a<sub>medio | ¿ a<sub>medio</sub> = X ? |
 |---|---|---|---|---|
