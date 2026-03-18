@@ -1,4 +1,4 @@
-# 📝 Tarea: Análisis del Árbol de Recursión
+# 📝 Tarea: Análisis de ecuaciones de recurrencia usando el método del árbol de recursión.
 
 ### Ejercicio 1: Resuelve la siguiente ecuación de recurrencia utilizando el método del árbol de recursión:
 

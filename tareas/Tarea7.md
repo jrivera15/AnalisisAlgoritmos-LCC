@@ -1,6 +1,6 @@
-# 📝 Tarea: Análisis del Teorema Maestro
+# 📝 Tarea: Análisis de ecuaciones de recurrencia usando el método del teorema maestro.
 
-Resuelve las ecuaciones de recurrencia utilizando el método maestro.
+Resuelve las siguientes ecuaciones de recurrencia utilizando el método del teorema maestro.
 
 ### Instrucciones para cada ejercicio:
 
