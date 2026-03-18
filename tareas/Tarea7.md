@@ -29,4 +29,4 @@ $$T(n) = 9T(n/3) + n$$
 
 ### Ejercicio 4:
 
-$$\frac{1}{2}T(n) = T(n/2) + n$$
+$$T(n) = \frac{1}{2}T(n/2) + n$$
